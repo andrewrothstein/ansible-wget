@@ -1,0 +1,7 @@
+---
+- name: install wget
+  become: yes
+  become_user: root
+  package:
+    name: wget
+    state: present

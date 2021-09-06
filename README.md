@@ -1,6 +1,7 @@
 andrewrothstein.wget
 =========
-[![Build Status](https://travis-ci.org/andrewrothstein/ansible-wget.svg?branch=master)](https://travis-ci.org/andrewrothstein/ansible-wget)
+![Build Status](https://github.com/andrewrothstein/ansible-wget/actions/workflows/build.yml/badge.svg)
+
 
 Installs wget via the OS package manager.
 

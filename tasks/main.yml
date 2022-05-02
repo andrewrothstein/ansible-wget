@@ -10,7 +10,7 @@
       paths:
         - '{{ role_path }}/vars'
 - name: install wget
-  become: yes
+  become: true
   become_user: root
   package:
     name: '{{ wget_os_pkgs | default(["wget"]) }}'
